@@ -23,7 +23,7 @@ Operating Systems, File System Crash Recovery, Distributed Systems, Storage Arch
 
 
 #### **Mission Statement**
-We live in a world of complex systems, things like macnine learning, IoT and social media is generating large amounts of data. I'm interested in researching problems with how we store and move data. I'm interested in how we interact with applications and the underlying storage that backs them. From data centers to consumer PCs, we should be able to fully utilize the capabilities.
+We live in a world of complex systems; things like machine learning, IoT devices, and social media services are generating large amounts of data. I'm interested in researching problems related to how we store and move data. With newer and newer storage technologies becoming more performant and more affordable, we should able to utilize them and efficiently integrate them into the systems we use today.
 
 
 

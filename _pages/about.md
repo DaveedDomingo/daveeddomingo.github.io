@@ -28,4 +28,4 @@ We live in a world of complex systems; things like machine learning, IoT devices
 
 
 
-**Currently Teaching Assistant for:** [CS416: Operating Systems Design](https://www.cs.rutgers.edu/~sk2113/course/cs416-sp20/)
+**Currently Teaching Assistant for:** [CS416: Operating Systems Design](https://www.cs.rutgers.edu/~badri/416.html)

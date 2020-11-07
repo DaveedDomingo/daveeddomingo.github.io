@@ -6,11 +6,9 @@ img: /assets/projects/pFSCK/pFSCK-logo.png
 ---
 
 
-
 <div class="img_row">
     <img class="col three left" src="{{ site.baseurl }}/assets/projects/pFSCK/pFSCK-banner.png" alt="" title="pFSCK banner"/>
 </div>
-
 
 ### Introduction
 

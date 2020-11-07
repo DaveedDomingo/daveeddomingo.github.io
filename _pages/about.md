@@ -14,7 +14,7 @@ social: true
 ---
 
 #### **About Me**
-I am currently a second year PhD student studying Computer Science at Rutgers University. I am part of the Systems Research Lab in the Department of Computer Science and work under [Sudarsun Kannan](https://www.cs.rutgers.edu/~sk2113/).
+I am currently a third year PhD student studying Computer Science at Rutgers University. I am part of the Systems Research Lab in the Department of Computer Science and work under [Sudarsun Kannan](https://www.cs.rutgers.edu/~sk2113/).
 
 Aside from academics I like playing around operating systems, cars, and photography. In my spare time, I like to work with my hands, whether it be working on my cars, tinkering with 3D-printing, microcontrollers, and building furniture.
 

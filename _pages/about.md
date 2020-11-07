@@ -25,7 +25,6 @@ Operating Systems, File System Crash Recovery, Distributed Systems, Storage Arch
 #### **Mission Statement**
 We live in a world of complex systems; things like machine learning, IoT devices, and social media services are generating large amounts of data. I'm interested in researching problems related to how we store and move data. With newer and newer storage technologies becoming more performant and more affordable, we should able to utilize them and efficiently integrate them into the systems we use today.
 
-
-
-
 **Currently Teaching Assistant for:** [CS416: Operating Systems Design](https://www.cs.rutgers.edu/~badri/416.html)
+
+***Connect with me using my contact info and social media links below!***

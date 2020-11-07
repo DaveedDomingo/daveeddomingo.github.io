@@ -6,7 +6,7 @@ description: Teaching materials and projects created by me.
 ---
 
 ### **Computer Science Projects**
-I will try to update this list as frequently as I can, but you should be able to see the latest list of computer science projects I created on [my personal Github](https://github.com/DaveedDomingo/CS-Projects).
+I try to update this list as frequently as I can, but you should be able to see the latest list of computer science projects I created on [my personal Github](https://github.com/DaveedDomingo/CS-Projects).
 
 #### **Operating Systems Projects**
 1. [**Understanding Operating System Overhead**](https://github.com/DaveedDomingo/OS-Invocation-Assignment)  

@@ -19,7 +19,7 @@ I am currently a third year PhD student studying Computer Science at Rutgers Uni
 Aside from academics I like playing around operating systems, cars, and photography. In my spare time, I like to work with my hands, whether it be working on my cars, tinkering with 3D-printing, microcontrollers, and building furniture.
 
 #### **Interests**
-Operating Systems, File System Crash Recovery, Distributed Systems, Storage Architecture.
+Operating Systems, File Systems, Storage Architecture, Distributed Systems.
 
 
 #### **Mission Statement**

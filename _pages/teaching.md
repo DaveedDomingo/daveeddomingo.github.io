@@ -21,6 +21,8 @@ In this project, students will explore Remote Procedure Calls using the modern f
 In this project, students will explore RESTful Design by implement a RESTful web service that also makes RESTful requests to external APIs.
 3. [**MapReduce: Processing Reddit Data**](https://github.com/DaveedDomingo/MapReduce-Reddit-Project)  
 In this project, students will explore distributed computing programming by using the Map Reduce framework to perform data processing on real Reddit Data in a distributed manner.
+4. [**Networking: Remote Object Store Service**](https://github.com/DaveedDomingo/Object-Store-Project)     
+In this project, students will explore the complexities of building communication channels as well as remote services by implementing their own remote object storage service.
 
 #### **Computer Security Projects**
 1. [**Cryptography Complexity: Cracking Simple Substitution Ciphers**](https://github.com/DaveedDomingo/Cracking-Simple-Ciphers-Project)  

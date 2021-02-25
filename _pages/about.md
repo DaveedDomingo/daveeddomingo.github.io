@@ -16,7 +16,7 @@ social: true
 #### **About Me**
 I am currently a third year PhD student studying Computer Science at Rutgers University. I am part of the Systems Research Lab in the Department of Computer Science and work under [Sudarsun Kannan](https://www.cs.rutgers.edu/~sk2113/).
 
-Aside from academics I like playing around operating systems, cars, and photography. In my spare time, I like to work with my hands, whether it be working on my cars, tinkering with 3D-printing, microcontrollers, and building furniture.
+Aside from academics I like playing around operating systems, cars, and photography. In my spare time, I like to work with my hands, whether it be working on my cars, tinkering with 3D-printing, microcontrollers, or building furniture.
 
 #### **Interests**
 Operating Systems, File Systems, Storage Architecture, Distributed Systems.
@@ -25,6 +25,6 @@ Operating Systems, File Systems, Storage Architecture, Distributed Systems.
 #### **Mission Statement**
 We live in a world of complex systems; things like machine learning, IoT devices, and social media services are generating large amounts of data. I'm interested in researching problems related to how we store and move data. With newer and newer storage technologies becoming more performant and more affordable, we should able to utilize them and efficiently integrate them into the systems we use today.
 
-**Currently Teaching Assistant for:** [CS416: Operating Systems Design](https://www.cs.rutgers.edu/~badri/416.html)
+**Currently Teaching Assistant for:** [CS417: Distributed Systems](https://www.cs.rutgers.edu/~pxk/417/index.html)
 
 ***Connect with me using my contact info and social media links below!***

@@ -12,7 +12,7 @@ I try to update this list as frequently as I can, but you should be able to see 
 1. [**Understanding Operating System Overhead**](https://github.com/DaveedDomingo/OS-Invocation-Assignment)  
 In this assignment, students will explore the cost of context switching and OS invocation by timing System Calls and Signal Handling.
 2. [**CPU Virtualization: User Level Threads and Scheduler**](https://github.com/DaveedDomingo/User-Level-Thread-Library-Project)  
-In this assignments students will explore CPU virutalization by implementing their own user-level threading library and scheduler.
+In this assignments students will explore CPU virtualization by implementing their own user-level threading library and scheduler.
 
 #### **Distributed Systems Projects**
 1. [**Understanding RPCs: The Bulletin Board Web Service**](https://github.com/DaveedDomingo/GRPC-Bulletin-Board-Project)  
@@ -23,6 +23,8 @@ In this project, students will explore RESTful Design by implement a RESTful web
 In this project, students will explore distributed computing programming by using the Map Reduce framework to perform data processing on real Reddit Data in a distributed manner.
 4. [**Networking: Remote Object Store Service**](https://github.com/DaveedDomingo/Object-Store-Project)     
 In this project, students will explore the complexities of building communication channels as well as remote services by implementing their own remote object storage service.
+5. [**Spark: Processing Reddit and Netflix Data**](https://github.com/DaveedDomingo/Spark-Reddit-Netflix-Project)  
+In this project, students will explore distributed computing programming by using the Spark framework to perform data processing on real Reddit and Netflix Data in a distributed manner.
 
 #### **Computer Security Projects**
 1. [**Cryptography Complexity: Cracking Simple Substitution Ciphers**](https://github.com/DaveedDomingo/Cracking-Simple-Ciphers-Project)  

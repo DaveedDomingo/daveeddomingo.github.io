@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>David Domingo</title>
+  <title>David Domingo | pFSCK</title>
   <meta name="description" content="">
 
   
@@ -14,7 +14,7 @@
   <link rel="shortcut icon" type="image/jpg" href="/assets/img/profile.jpg">
 
   <link rel="stylesheet" href="/assets/css/main.css">
-  <link rel="canonical" href="/blog/">
+  <link rel="canonical" href="/projects/pFSCK/">
 </head>
 
 
@@ -91,24 +91,45 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="header-bar">
-  <!-- <h1>Blog Posts</h1> -->
-  <h2>Posts about anything and everything I find interesting.</h2>
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">pFSCK</h1>
+    <h5 class="post-description">Accelerating File System Checking</h5>
+  </header>
+
+  <article class="post-content pFSCK clearfix">
+    <div class="img_row">
+    <img class="col three left" src="/assets/projects/pFSCK/pFSCK-banner.png" alt="" title="pFSCK banner" />
 </div>
 
+<h3 id="introduction">Introduction</h3>
 
-<ul class="post-list">
+<p>Traditional file system checking has been notorious for being a tedious and long process making it a last resort for most sysadmins dealing with file system corruption.</p>
+
+<p>Despite crash recovery and consistency mechanisms such as journaling being developed to mitigate the need to perform complete file system checking, file system checking is still the ultimate recovery tool when all other recovery techniques fail.</p>
+
+<p>pFSCK, which is based on the e2fsck file system checker for EXT4 file systems, aims to explore the issues of traditional file system checking and attempts to automatically scale file system checking to exploit available multicore and storage parallelism to enable faster and more convenient file system checking.</p>
+
+<p>You can learn more here: <a href="https://www.usenix.org/conference/fast21/presentation/domingo">https://www.usenix.org/conference/fast21/presentation/domingo</a></p>
+
+<p>Feel free to also check out our source code here: 
+<a href="https://github.com/RutgersCSSystems/pFSCK">https://github.com/RutgersCSSystems/pFSCK</a></p>
+
+<h3 id="papers-and-presentations">Papers and Presentations</h3>
+<ol>
+  <li>Appeared in <a href="https://www.usenix.org/conference/fast21">USENIX Conference on File and Storage Technologies (FAST ‘21)</a></li>
+  <li>Presented at <a href="https://www.usenix.org/conference/vault20">Linux Storage and Filesystems Conference (VAULT ‘20)</a> as <a href="https://www.usenix.org/conference/vault20/presentation/domingo">“Accelerating Filesystem Checking and Repair with pFSCK”</a></li>
+  <li>ArXiv pre-print: <a href="https://arxiv.org/abs/2004.05524">https://arxiv.org/abs/2004.05524</a></li>
+</ol>
+
+  </article>
+
   
-    <li>
-      <h2><a class="post-title" href="/blog/2020/The-Perfect-Mix/">Finding the Perfect Remote Shell Setup</a></h2>
-      <p class="post-meta">January 25, 2020 — 10:59</p>
-      <p>Mosh + Tmux = Perfect Match</p>
-    </li>
+
   
-</ul>
 
-
-
+</div>
 
       </div>
     </div>

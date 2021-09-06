@@ -25,6 +25,6 @@ Operating Systems, File Systems, Storage Architecture, Distributed Systems.
 #### **Mission Statement**
 We live in a world of complex systems; things like machine learning, IoT devices, and social media services are generating large amounts of data. I'm interested in researching problems related to how we store and move data. With newer and newer storage technologies becoming more performant and more affordable, we should able to utilize them and efficiently integrate them into the systems we use today.
 
-**Currently Teaching Assistant for:** [CS417: Distributed Systems](https://www.cs.rutgers.edu/~pxk/417/index.html)
+**Currently Research Assistant for:** [Rutgers Systems Research Lab](https://people.cs.rutgers.edu/~sk2113/rsrl.html)
 
 ***Connect with me using my contact info and social media links below!***

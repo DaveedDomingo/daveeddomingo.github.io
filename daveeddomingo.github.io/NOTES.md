@@ -24,4 +24,5 @@ Other Notes on Changes:
   - Added cv viewer to _layouts/cv.liquid, can specify pdf file via cv_pdf in cv.md
   - removed blog page for now
   - removed publication search in publications.md
+  - for publications used @article for conference to show different text
   

@@ -1,9 +1,58 @@
----
----
 
-@string{aps = {American Physical Society,}}
+@article {ren2025polystore,
+abbr={Usenix FAST},
+title={{PolyStore: Exploiting Combined Capabilities of Heterogeneous Storage.}},
+author={Ren, Yujie and Domingo, David and Zhang, Jian and John, Paul and Pitchumani, Rekha and Kashyap, Sanidhya and Kannan, Sudarsun},
+journal={Appearing in 23rd USENIX Conference on File and Storage Technologies (FAST '25)},
+year={2025},
+month = feb
+}
 
-@book{einstein1920relativity,
+@misc{kannan2024systems,
+  abbr={Patent},
+  title={Systems and methods for heterogeneous storage systems},
+  author={Kannan, Sudarsun and Ren, Yujie and Pitchumani, Rekha and Domingo, David},
+  year={2024},
+  month=mar # "~12",
+  publisher={Google Patents},
+  note={US Patent 11,928,336}
+}
+
+@article {domingo2021accelerating,
+abbr={Usenix FAST},
+title={{pFSCK: Accelerating File System Checking and Repair for Modern Storage}},
+author={Domingo, David and Kannan, Sudarsun},
+journal={In 19th USENIX Conference on File and Storage Technologies (FAST '21)},
+year={2021},
+month = feb,
+html={https://www.usenix.org/conference/fast21/presentation/domingo},
+pdf={https://www.usenix.org/system/files/fast21-domingo.pdf},
+slides={https://www.usenix.org/sites/default/files/conference/protected-files/fast21_slides_domingo.pdf},
+video={https://www.youtube.com/embed/eIUIX8WGo6U},
+code={https://github.com/RutgersCSSystems/pFSCK}
+}
+
+@article {domingo2020accelerating,
+abbr={Usenix VAULT},
+author = {Domingo, David and Kannan, Sudarsun},
+title = {Accelerating Filesystem Checking and Repair with {pFSCK}},
+journal={In Linux Storage and Filesystems Conference (VAULT ’20)},
+year = {2020},
+address = {Santa Clara, CA},
+publisher = {USENIX Association},
+month = feb,
+html={https://www.usenix.org/conference/vault20/presentation/domingo},
+slides={https://www.usenix.org/sites/default/files/conference/protected-files/vault20_slides_domingo.pdf},
+video={https://www.youtube.com/embed/R0u3g9LrW5I}
+}
+
+
+
+--- Original example bib
+
+string{aps = {American Physical Society,}}
+
+book{einstein1920relativity,
   title={Relativity: the Special and General Theory},
   author={Einstein, Albert},
   year={1920},
@@ -11,7 +60,7 @@
   html={relativity.html}
 }
 
-@book{einstein1956investigations,
+book{einstein1956investigations,
   bibtex_show={true},
   title={Investigations on the Theory of the Brownian Movement},
   author={Einstein, Albert},
@@ -20,7 +69,7 @@
   preview={brownian-motion.gif}
 }
 
-@article{einstein1950meaning,
+article{einstein1950meaning,
   abbr={AJP},
   bibtex_show={true},
   title={The meaning of relativity},
@@ -33,7 +82,7 @@
   publisher={American Association of Physics Teachers}
 }
 
-@article{PhysRev.47.777,
+article{PhysRev.47.777,
   abbr={PhysRev},
   title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
   author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
@@ -61,7 +110,7 @@
   inspirehep_id = {3255}
 }
 
-@article{einstein1905molekularkinetischen,
+article{einstein1905molekularkinetischen,
   title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
   author={Einstein, A.},
   journal={Annalen der physik},
@@ -72,7 +121,7 @@
   publisher={Wiley Online Library}
 }
 
-@article{einstein1905movement,
+article{einstein1905movement,
   abbr={Ann. Phys.},
   title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
   author={Einstein, A.},
@@ -82,13 +131,13 @@
   year={1905}
 }
 
-@article{einstein1905electrodynamics,
+article{einstein1905electrodynamics,
   title={On the electrodynamics of moving bodies},
   author={Einstein, A.},
   year={1905}
 }
 
-@Article{einstein1905photoelectriceffect,
+Article{einstein1905photoelectriceffect,
   bibtex_show={true},
   abbr={Ann. Phys.},
   title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
@@ -104,7 +153,7 @@
   award_name={Nobel Prize}
 }
 
-@book{przibram1967letters,
+book{przibram1967letters,
   bibtex_show={true},
   title={Letters on wave mechanics},
   author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},

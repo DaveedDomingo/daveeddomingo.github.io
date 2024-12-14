@@ -22,4 +22,6 @@ Other Notes on Changes:
   - news title on about page changed to "recent news" in about.liquid:46
   - moved default news to _news_templates
   - Added cv viewer to _layouts/cv.liquid, can specify pdf file via cv_pdf in cv.md
+  - removed blog page for now
+  - removed publication search in publications.md
   

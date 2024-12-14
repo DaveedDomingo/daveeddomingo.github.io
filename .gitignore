@@ -1,6 +1,1 @@
-_site
-.sass-cache
-.jeykll-metadata
-.DS_store
-.ruby-version
-Gemfile.lock
+*.DS_store

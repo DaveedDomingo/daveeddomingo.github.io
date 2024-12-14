@@ -12,14 +12,14 @@ Current base:
 Some notes:
   - Website configuration in _config.yml
   - Can have larger than inline accountments, see example news template 2
+  - Can disable/rearrange pages by modifying nav bool and nav order index
+  - Modify how pages/posts are shown via liquid files in _layout
 
 Other Notes on Changes:
   - disabled selected papers in about.md
   - disabled search in _config.yml
   - serve_og_meta enabled in _config.yml updated to profile pic
-  - news title on about page changed in about.liquid:46
-To Do:
- - disable repositories
- - disable people
- - disable submenues
- - reorganize tabs
+  - news title on about page changed to "recent news" in about.liquid:46
+  - moved default news to _news_templates
+  - Added cv viewer to _layouts/cv.liquid, can specify pdf file via cv_pdf in cv.md
+  

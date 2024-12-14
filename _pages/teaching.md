@@ -4,7 +4,7 @@ permalink: /teaching/
 title: teaching
 description: Teaching materials and projects created by me.
 nav: true
-nav_order: 4
+nav_order: 3
 ---
 
 ## **Computer Science Projects**

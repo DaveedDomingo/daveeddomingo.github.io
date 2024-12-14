@@ -2,11 +2,36 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: Teaching materials and projects created by me.
 nav: true
 nav_order: 4
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+## **Computer Science Projects**
+I try to update this list as frequently as I can, but you should be able to see the latest list of computer science projects I created on [my personal Github](https://github.com/DaveedDomingo/CS-Projects).
 
-Organize your courses by years, topics, or universities, however you like!
+#### **Operating Systems Projects**
+1. [**Understanding Operating System Overhead**](https://github.com/DaveedDomingo/OS-Invocation-Assignment)<br />
+    In this assignment, students will explore the cost of context switching and OS invocation by timing System Calls and Signal Handling.
+2. [**CPU Virtualization: User Level Threads and Scheduler**](https://github.com/DaveedDomingo/User-Level-Thread-Library-Project)<br />
+    In this assignments students will explore CPU virtualization by implementing their own user-level threading library and scheduler.
+
+#### **Distributed Systems Projects**
+1. [**Understanding RPCs: The Bulletin Board Web Service**](https://github.com/DaveedDomingo/GRPC-Bulletin-Board-Project)<br />
+    In this project, students will explore Remote Procedure Calls using the modern framework of gRPC and Google Protocol Buffers.
+2. [**Restful Web Services: A Foodie Web Service**](https://github.com/DaveedDomingo/Foodie-Web-Service-Project)<br />
+    In this project, students will explore RESTful Design by implement a RESTful web service that also makes RESTful requests to external APIs.
+3. [**MapReduce: Processing Reddit Data**](https://github.com/DaveedDomingo/MapReduce-Reddit-Project)<br />
+    In this project, students will explore distributed computing programming by using the Map Reduce framework to perform data processing on real Reddit Data in a distributed manner.
+4. [**Networking: Remote Object Store Service**](https://github.com/DaveedDomingo/Object-Store-Project)<br />
+    In this project, students will explore the complexities of building communication channels as well as remote services by implementing their own remote object storage service.
+5. [**Spark: Processing Reddit and Netflix Data**](https://github.com/DaveedDomingo/Spark-Reddit-Netflix-Project)<br />
+    In this project, students will explore distributed computing programming by using the Spark framework to perform data processing on real Reddit and Netflix Data in a distributed manner.
+
+#### **Computer Security Projects**
+1. [**Cryptography Complexity: Cracking Simple Substitution Ciphers**](https://github.com/DaveedDomingo/Cracking-Simple-Ciphers-Project)<br />
+    In this project, students will explore the complexity of simple substitution ciphers and try and come up with programs that can automatically break them using brute force/frequency analysis.
+2. [**Understanding Encryption: Encrypting Files with Java**](https://github.com/DaveedDomingo/Cryptr-Java-Encryption-Assignment)<br />
+    In this assignment, students will explore how to encrypt and decrypt files in Java using public-key cryptography and symmetric key cryptography to carry out secure file sharing.
+
+<br /> <!-- Add space to end of page -->

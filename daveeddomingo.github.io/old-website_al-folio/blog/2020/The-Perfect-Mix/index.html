@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>David Domingo | Finding the Perfect Remote Shell Setup</title>
+  <meta name="description" content="">
+
+  
+
+  <link rel="shortcut icon" type="image/jpg" href="/assets/img/profile.jpg">
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="canonical" href="/blog/2020/The-Perfect-Mix/">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    
+    <span class="site-title">
+        
+        <strong>David</strong> Domingo
+    </span>
+    
+
+    <nav class="site-nav">
+      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+      <div class="trigger">
+        <!-- About -->
+        <a class="page-link" href="/">about</a>
+
+        <!-- Blog -->
+        <a class="page-link" href="/blog/">blog</a>
+
+        <!-- Pages -->
+        
+          
+        
+          
+        
+          
+        
+          
+            <a class="page-link" href="/projects/">projects</a>
+          
+        
+          
+            <a class="page-link" href="/publications/">publications</a>
+          
+        
+          
+            <a class="page-link" href="/teaching/">teaching</a>
+          
+        
+          
+            <a class="page-link" href="/CV/">CV</a>
+          
+        
+          
+        
+
+        <!-- CV link -->
+        <!-- <a class="page-link" href="/assets/pdf/CV.pdf">vitae</a> -->
+
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Finding the Perfect Remote Shell Setup</h1>
+    <p class="post-meta">January 25, 2020</p>
+  </header>
+
+  <article class="post-content">
+    <p>For years i’ve been feeling like a super user; connected to remote computers via SSH, and using VIM to do development work on a remote system. My idea of multitasking on a remote system was by using multiple terminals, each with their own SSH connection to the system. I would further move back in forth between tasks within a single session by using ctrl+z to stop to and then bringing them back to the forward by using <code class="language-plaintext highlighter-rouge">fg</code>.</p>
+
+<h3 id="tmux-goodbye-mouse-and-window-borders">Tmux: Goodbye Mouse and Window Borders</h3>
+<p>The moment I discovered TMUX I was in love. Due to previous trauma experienced when learning VIM, I was very hesitant on learning any other tool, thinking the learning curve would be the same. However, I was very surpised how easy it was to get a hang of Tmux.</p>
+
+<p>You can create a new session:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ tmux new -s &lt;session name&gt;
+</code></pre></div></div>
+
+<p>Detaching from the session is simply <code class="language-plaintext highlighter-rouge">CTRL+B</code> followed by <code class="language-plaintext highlighter-rouge">D</code> in quick succession.</p>
+
+<p>You can then list the available sessions:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ tmux ls
+</code></pre></div></div>
+<p>and attach to them using:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ tmux attach -t &lt;session name&gt;
+</code></pre></div></div>
+<p>You can split the pane horizontally with <code class="language-plaintext highlighter-rouge">CTRL+B</code> followed by <code class="language-plaintext highlighter-rouge">%</code>. You can also split the pane vertically with <code class="language-plaintext highlighter-rouge">CTRL+B</code> followed by <code class="language-plaintext highlighter-rouge">"</code>. To move between the panes you just use <code class="language-plaintext highlighter-rouge">CTRL+B</code> followed by an arrow key specifying the direction in which to move. Moving and resizing windows you can the Tmux commands <code class="language-plaintext highlighter-rouge">swap-pane</code> and <code class="language-plaintext highlighter-rouge">resize-pane</code>, respectively. You can also create multiple windows in the same session, each with their own pane layout.</p>
+
+<p>With Tmux I discovered what real remote shell multitasking is like. Being able to run multiple shells in parallel within the same window feels amazing as I do everything I need to do without taking my hand off the keyboard to click another window. Lastly, now I can completely avoid spending time resizing any windows with my mouse so they perfectly tile accross my desktop.</p>
+
+<h4 id="the-issue">The Issue</h4>
+<p>Even though Tmux worked great, I was still left with the issue of spotty coffee shop WiFi which left me disconnected from time to time. When this happens, I have to restart the connection, then reattach to the Tmux session. Although this was such a little thing to do, it was still pretty annoying to have to do from time to time.</p>
+
+<h3 id="mosh">Mosh:</h3>
+<p>Mosh is a remote terminal client that allows for intermittent connectivity by setting up a UDP connection between the client and the server via SSH. The Mosh server running in the background keeps any sessions alive in the event the client disconnects. Due to the connection, it allows the client to reconnect despite moving between networks or access points.</p>
+
+<p>If you network goes down or your connection becomes spotty, Mosh will even show how long the connection was down for to let you know that you’re connection, is indeed no working, so no need to double check if you can access the web from a web browser, when your session freezes and you think you may not have internet.</p>
+
+<h4 id="the-only-downside-no-x11-forwarding">The only downside: No X11 Forwarding</h4>
+<p>The only issue with Mosh is that X11 forwarding, which is a bummer as I like to run performance profiling applications such as Intel’s VTune so I can see the performance graphs immediately instead of graphing them myself. Until then, I’ll just use X11 forwarding in the lab where my WiFi isn’t spotty.</p>
+
+  </article>
+
+  
+
+</div>
+
+      </div>
+    </div>
+
+    <footer>
+
+  <div class="wrapper">
+    &copy; Copyright 2021 David Domingo.
+    
+    
+  </div>
+
+</footer>
+
+
+    <!-- Load jQuery -->
+<script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+
+<!-- Load KaTeX -->
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.js"></script>
+<script src="/assets/js/katex.js"></script>
+
+
+
+
+<!-- Include custom icon fonts -->
+<link rel="stylesheet" href="/assets/css/fontawesome-all.min.css">
+<link rel="stylesheet" href="/assets/css/academicons.min.css">
+
+
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-XXXXXXXXX', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+
+  </body>
+
+</html>

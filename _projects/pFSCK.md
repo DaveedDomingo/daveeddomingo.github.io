@@ -10,7 +10,7 @@ related_publications: false
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/pFSCK-banner.jpg" title="pFSCK-banner" %}
+        {% include figure.liquid loading="eager" path="assets/img/pFSCK-banner-long.jpg" title="pFSCK-banner" %}
     </div>
 </div>
 

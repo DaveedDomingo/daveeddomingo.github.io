@@ -8,14 +8,6 @@ category: work
 related_publications: false
 ---
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/pFSCK-banner-long.jpg" title="pFSCK-banner" %}
-    </div>
-</div>
-
-<br />
-
 ## Introduction
 Traditional file system checking has been notorious for being a tedious and long process making it a last resort for most sysadmins dealing with file system corruption.
 

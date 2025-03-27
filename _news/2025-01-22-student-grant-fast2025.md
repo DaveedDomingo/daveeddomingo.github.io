@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I have been awarded a student grant to attend [USENIX Conference on File and Storage Technologies (FAST ‘25)](https://www.usenix.org/conference/fast25)!
+I was awarded a student grant to attend [USENIX Conference on File and Storage Technologies (FAST ‘25)](https://www.usenix.org/conference/fast25)!

@@ -22,7 +22,7 @@ social: true # includes social icons at the bottom of the page
 #### **About Me**
 I'm currently a final year PhD Candidate studying Computer Science at Rutgers University. I am part of the [Systems Research Lab](https://people.cs.rutgers.edu/~sk2113/rsrl.html) in the Department of Computer Science advised by [Sudarsun Kannan](https://www.cs.rutgers.edu/~sk2113/).
 
-Aside from academics I like playing around operating systems, cars, and photography. In my spare time, I like to work with my hands, whether it be working on my cars/motorcycles, tinkering with 3D-printing, microcontrollers, or building furniture.
+Aside from academics I like playing around operating systems, cars, motorcycles, and photography. In my spare time, I like to work with my hands, whether it be working on my cars/motorcycles, tinkering with 3D-printing, microcontrollers, or building furniture.
 
 #### **Interests**
 Operating Systems, File Systems, Storage Architecture, Distributed Systems.

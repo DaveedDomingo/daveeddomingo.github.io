@@ -2,7 +2,7 @@
 layout: page
 title: pFSCK
 description: Accelerating File System Checking for Modern Storage
-img: assets/img/pFSCK-logo-square.jpg
+img: assets/img/pFSCK-logo.png
 importance: 1
 category: research
 related_publications: false

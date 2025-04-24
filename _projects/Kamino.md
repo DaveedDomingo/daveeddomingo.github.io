@@ -2,7 +2,7 @@
 layout: page
 title: Kamino
 description: Efficient VM Allocation at Scale with Latency-Driven  Cache-Aware Scheduling
-#img: assets/img/pFSCK-logo-square.jpg
+img: assets/img/kamino-logo.png
 importance: 3
 category: research
 related_publications: false
@@ -11,6 +11,8 @@ related_publications: false
 Joint work with Microsoft Research and Microsoft Azure.
 
 More information to be released upon publishing.
+
+<br />
 
 ## Papers and Presentations
 1. To appear in [USENIX Symposium on Operating Systems Design and Implementation (OSDI ‘25)](https://www.usenix.org/conference/osdi25) as "Kamino: Efficient VM Allocation at Scale with Latency-Driven Cache-Aware Scheduling" 

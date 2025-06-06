@@ -20,15 +20,17 @@ social: true # includes social icons at the bottom of the page
 ---
 
 #### **About Me**
-I'm currently a final year PhD Candidate studying Computer Science at Rutgers University. I am part of the [Systems Research Lab](https://people.cs.rutgers.edu/~sk2113/rsrl.html) in the Department of Computer Science advised by [Sudarsun Kannan](https://www.cs.rutgers.edu/~sk2113/).
+I'm currently a final year PhD Candidate studying Computer Science at [Rutgers University](https://www.rutgers.edu). I am part of the [Systems Research Lab](https://people.cs.rutgers.edu/~sk2113/rsrl.html) in the Department of Computer Science advised by [Sudarsun Kannan](https://www.cs.rutgers.edu/~sk2113/) working on solutions to improve performance for multi-threaded, I/O intensive workloads on modern storage.
 
-Aside from academics I like playing around operating systems, cars, motorcycles, and photography. In my spare time, I like to work with my hands, whether it be working on my cars/motorcycles, tinkering with 3D-printing, microcontrollers, or building furniture.
+Previously, I was a research intern at [Google](https://www.google.com/) analyzing distributed storage workloads and [Microsoft Research](https://www.microsoft.com/en-us/research/) working on optimizing VM Allocation.
+
+Aside from academics I like playing around with operating systems, cars, motorcycles, and photography. In my spare time, I like to work with my hands, whether it be working on my cars/motorcycles, tinkering with 3D-printing, microcontrollers, or building furniture.
 
 #### **Interests**
-Operating Systems, File Systems, Storage Architecture, Distributed Systems.
+Operating Systems, Distributed Systems, File Systems, Storage Architecture, Distributed Storage, Databases/Key-Value Stores, Cloud Infrastructure, Cloud Efficiency.
 
-#### **Mission Statement**
-We live in a world of complex systems; things like machine learning, IoT devices, and social media services are generating large amounts of data. I’m interested in researching problems related to how we store and move data. With newer and newer storage technologies becoming more performant and more affordable, we should able to utilize them and efficiently integrate them into the systems we use today.
+#### **Mission**
+We are living during a time of extreme data growth; workloads from AI/ML, IoT devices, and social media services are generating and consuming large amounts of data. I’m interested in researching problems related to how we scale the way we store and retrieve data. With newer storage technologies becoming more performant and more affordable, we should able to utilize them and efficiently integrate them into the systems we use today. Additionally, with the exponential growth of data workloads, we should be able to build/optimize storage systems to scale effiently and minimize the potential excasterbation of hardware and energy waste.
 
 ***<span style="color:red"> *Note: I'm currently on the job market and looking for industry positions!*</span>***
 

@@ -30,7 +30,7 @@ Aside from academics I like playing around with operating systems, cars, motorcy
 Operating Systems, Distributed Systems, File Systems, Storage Architecture, Distributed Storage, Databases/Key-Value Stores, Cloud Infrastructure, Cloud Efficiency.
 
 #### **Mission**
-We are living during a time of extreme data growth; workloads from AI/ML, IoT devices, and social media services are generating and consuming large amounts of data. I’m interested in researching problems related to how we scale the way we store and retrieve data. With newer storage technologies becoming more performant and more affordable, we should able to utilize them and efficiently integrate them into the systems we use today. Additionally, with the exponential growth of data workloads, we should be able to build/optimize storage systems to scale effiently and minimize the potential excasterbation of hardware and energy waste.
+We are living during a time of extreme data growth; workloads from AI/ML, IoT devices, and social media services are generating and consuming large amounts of data. I’m interested in researching problems related to how we scale the way we store and retrieve data. With newer storage technologies becoming more performant and more affordable, we should able to utilize them and efficiently integrate them into the systems we use today. Additionally, with the exponential growth of data workloads, we should be able to build/optimize storage systems to scale efficiently and minimize the potential excasterbation of hardware and energy waste.
 
 <br />
 ***Connect with me using my contact info and social media links below!***
